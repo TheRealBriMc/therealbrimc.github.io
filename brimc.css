@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+img {
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+	font-family: roboto, sans-serif;
+	animation-name: topFadeOut;
+	animation-duration: 5s;
+}
+
+@keyframes topFadeOut {
+  0% {
+    margin-bottom: 100px;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  100% {
+  	margin-bottom: 0px;
+  	opacity: 1;
+  }
+}
